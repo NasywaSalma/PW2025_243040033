@@ -3,6 +3,7 @@
 $mahasiswa = [
     ['Nasywa', '243040033', 'salmanasywa96@gmail.com', 'Teknik Informatika'],
     ['axel', '243040200', 'axel@gmail.com', 'Teknik Informatika', [85, 100, 40]]
+    ['Charlize', '24304078', 'Teknik Informatika', 'Charlize@gmail.com']
 ];
 // echo $mahasiswa[1][2];
 ?>

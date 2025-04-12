@@ -33,13 +33,15 @@ echo $mahasiswa[1]["tugas"][1];
     <h1>Daftar Mahasiswa</h1>
 
     <?php foreach ($mahasiswa as $mhs) : ?>
-        <ul>
-            <li>Nama : <?= $mhs["Nama"]; ?></li>
-            <li>NRP : <?= $mhs["NRP"]; ?></li>
-            <li>Jurusan : <?= $mhs["Jurusan"]; ?></li>
-            <li>Email : <?= $mhs["Email"]; ?></li>
-        </ul>
-    <?php endforeach; ?>
+    <ul>
+        <li>
+            <a href="latihan4.php?nama=<?= $mhs['Nama']; ?>">
+            <a href="latihan4.php?nama=<?= $mhs['Nama']; ?>&nim=<?= $m['NRP']; ?>&email=<?= $m['Email']; ?>&jurusan=<?= $m['Jurusan']; ?>">
+            <?= $mhs['Nama']; ?>
+            </a>
+        </li>
+    </ul>
+     <?php endforeach; ?>
 
-</body>
+ </body>
 </html>
